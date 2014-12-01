@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.dant3</groupId>
+    <artifactId>sbt-android-buildinfo</artifactId>
+    <packaging>jar</packaging>
+    <description>sbt plugin to generate build info xml file</description>
+    <version>0.1</version>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>sbt-android-buildinfo</name>
+    <organization>
+        <name>com.github.dant3</name>
+    </organization>
+    <url>https://github.com/dant3/sbt-android-buildinfo</url>
+    <licenses>
+        <license>
+            <name>Apache 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <url>scm:git:git@github.com:dant3/sbt-android-buildinfo.git</url>
+        <connection>scm:git:git@github.com:dant3/sbt-android-buildinfo.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>dant3</id>
+            <name>Viacheslav Blinov</name>
+            <url>http://github.com/dant3</url>
+        </developer>
+    </developers>
+    <properties>
+        <sbtVersion>0.13</sbtVersion>
+        <scalaVersion>2.10</scalaVersion>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.10.4</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>sbt</artifactId>
+            <version>0.13.5</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>
